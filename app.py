@@ -14,6 +14,7 @@ import streamlit as st
 import joblib
 from src.prediction import predict as serve_prediction, get_pipeline
 from src.validation import validate_inputs
+from src.batch import parse_csv
 
 # Import privacy-conscious monitoring module
 from src.monitoring import (
@@ -512,14 +513,14 @@ def main():
         st.markdown("### Batch Student Prediction via CSV")
         st.markdown(
             "Upload a `.csv` file containing multiple student records to evaluate them simultaneously. "
-            "The CSV must include all 30 expected predictor features. `G3` and `performance_category` must not be included."
+            "The CSV must contain exactly the 30 predictor columns, at most 500 rows and be no larger than 1 MiB. Invalid batches are rejected in full. `G3` and `performance_category` must not be included."
         )
 
         uploaded_file = st.file_uploader("Upload Student Dataset (CSV)", type=["csv"])
 
         if uploaded_file is not None:
             try:
-                batch_df = pd.read_csv(uploaded_file)
+                batch_df = parse_csv(uploaded_file.getvalue())
                 st.write(f"Uploaded {len(batch_df)} rows and {batch_df.shape[1]} columns.")
 
                 expected_cols = list(pipeline.feature_names_in_)

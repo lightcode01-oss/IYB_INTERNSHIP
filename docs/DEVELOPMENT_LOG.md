@@ -165,3 +165,8 @@ Bound request sizes, verify the model checksum and test privacy-related regressi
 ## Day 33: User Experience Improvements
 
 Make model limits, required fields and privacy choices clear in the application. Notebook executed successfully in 8.0 seconds. Evidence: `reports/day_33.md`.
+
+
+## Day 34: Reliable Batch Prediction
+
+Bound and validate CSV uploads before producing ordered predictions. Notebook executed successfully in 6.7 seconds. Evidence: `reports/day_34.md`.
