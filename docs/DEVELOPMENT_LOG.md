@@ -160,3 +160,8 @@ Use one validation and prediction service for Streamlit and the optional API. No
 ## Day 32: Application Security Review
 
 Bound request sizes, verify the model checksum and test privacy-related regressions. Notebook executed successfully in 4.4 seconds. Evidence: `reports/day_32.md`.
+
+
+## Day 33: User Experience Improvements
+
+Make model limits, required fields and privacy choices clear in the application. Notebook executed successfully in 8.0 seconds. Evidence: `reports/day_33.md`.

@@ -98,6 +98,8 @@ def main():
         initial_sidebar_state="expanded"
     )
 
+    st.warning("Portfolio demonstration only. Do not use these predictions to grade students or determine access to education. Model probabilities are uncalibrated estimates.")
+
     # Custom CSS for polished, professional styling
     st.markdown("""
     <style>
@@ -191,8 +193,8 @@ def main():
         st.markdown("---")
         st.subheader("Performance Tiers")
         st.markdown("""
-        - **High:** $G3 \\ge 15$ (Superior Mastery)
-        - **Medium:** $10 \\le G3 < 15$ (Standard Progression)
+        - **High:** $G3 \\ge 15$
+        - **Medium:** $10 \\le G3 < 15$
         - **Low:** $G3 < 10$ (Academic Intervention Needed)
         """)
 
@@ -226,7 +228,7 @@ def main():
     # TAB 1: Single Student Prediction Form
     # =========================================================================
     with tab_single:
-        st.markdown("Enter student demographic, academic, and behavioral attributes below to estimate their performance tier.")
+        st.markdown("Use demonstration data to explore a model estimate. All 30 fields are required. Do not enter names, contact details or final grades. The dataset covers two Portuguese schools and may not represent your context.")
 
         with st.form("single_student_prediction_form"):
             col1, col2 = st.columns(2)
@@ -241,7 +243,7 @@ def main():
                     help="Student's secondary school."
                 )
                 sex = st.selectbox(
-                    "Gender",
+                    "Sex (as recorded in the source dataset)",
                     options=["F", "M"],
                     format_func=lambda x: "Female" if x == "F" else "Male"
                 )
@@ -439,7 +441,7 @@ def main():
                     st.markdown(
                         f'<div class="prediction-box-high">'
                         f'<h3>🎓 Predicted Category: HIGH (G3 ≥ 15)</h3>'
-                        f'<p>The model estimates this student is on track for superior academic achievement.</p>'
+                        f'<p>The model assigned the High category for this input. This is a statistical estimate, not a guarantee of a future grade.</p>'
                         f'</div>',
                         unsafe_allow_html=True
                     )
@@ -447,7 +449,7 @@ def main():
                     st.markdown(
                         f'<div class="prediction-box-medium">'
                         f'<h3>📘 Predicted Category: MEDIUM (10 ≤ G3 < 15)</h3>'
-                        f'<p>The model estimates this student is progressing at a standard, satisfactory pace.</p>'
+                        f'<p>The model assigned the Medium category for this input. It cannot determine individual ability or future achievement.</p>'
                         f'</div>',
                         unsafe_allow_html=True
                     )
@@ -455,7 +457,7 @@ def main():
                     st.markdown(
                         f'<div class="prediction-box-low">'
                         f'<h3>⚠️ Predicted Category: LOW (G3 < 10)</h3>'
-                        f'<p>Early warning: The student may be at risk of academic underperformance and could benefit from proactive intervention.</p>'
+                        f'<p>The model assigned the Low category for this input. Review model limitations before interpreting this estimate; it is not an individual assessment.</p>'
                         f'</div>',
                         unsafe_allow_html=True
                     )
