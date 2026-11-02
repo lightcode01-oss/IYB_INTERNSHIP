@@ -130,3 +130,8 @@ Verify explanation reproducibility, conservation and uncertainty across shuffle 
 ## Day 26: Model Robustness Testing
 
 Measure prediction sensitivity while checking batch and column-order invariance. Notebook executed successfully in 4.0 seconds. Evidence: `reports/day_26.md`.
+
+
+## Day 27: Input Validation and Reliability
+
+Centralize strict validation and saved-model predictions for all serving paths. Notebook executed successfully in 5.3 seconds. Evidence: `reports/day_27.md`.
