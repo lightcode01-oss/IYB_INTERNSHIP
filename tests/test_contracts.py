@@ -27,12 +27,8 @@ def test_target_rule_and_manifest():
 
 def test_notebooks_valid_with_real_execution_state():
     import nbformat
-    import subprocess
-    # A notebook being authored is untracked until its successful execution.
-    tracked=subprocess.check_output(['git','ls-files','*.ipynb'],cwd=ROOT,text=True).splitlines()
     paths=list(ROOT.glob('Day_*.ipynb'))+list((ROOT/'notebooks').glob('Day_*.ipynb'))+list(ROOT.glob('YBI_45*.ipynb'))
     for path in paths:
-        if path.relative_to(ROOT).as_posix() not in tracked: continue
         notebook=nbformat.read(path,as_version=4)
         nbformat.validate(notebook)
         code=[c for c in notebook.cells if c.cell_type=='code']

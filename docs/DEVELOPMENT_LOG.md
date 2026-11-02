@@ -1,5 +1,7 @@
 # Internship development log
 
+Post-completion repair, 2 November 2026: reproduced and fixed the notebook test's unnecessary Git dependency in downloaded ZIP archives. The extracted project passed all 85 tests. Details: reports/ZIP_TEST_FIX.md.
+
 Repair and extension session: 2 November 2026. Days are curriculum milestones, not claims of elapsed calendar days.
 
 ## Day 01 repair

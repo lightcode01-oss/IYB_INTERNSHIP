@@ -23,6 +23,8 @@ python -m streamlit run app.py --server.address 127.0.0.1
 python -m pytest -q
 ```
 
+Run the test command from the project root (the folder containing `app.py`). The tests also work in an extracted project ZIP; Git metadata is not required.
+
 For the optional API, run `python -m uvicorn api:app --host 127.0.0.1 --port 8000` and open its local `/docs` page. See the [API contract](docs/API.md) and [demonstration guide](docs/DEMONSTRATION.md).
 
 ## Data and target
