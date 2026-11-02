@@ -1,0 +1,2 @@
+Model,Test Accuracy,Test Macro Precision,Test Macro Recall,Test Macro F1,CV Macro F1 (Training),Generalization Delta
+Decision Tree,0.5384615384615384,0.4447496947496948,0.46288156288156285,0.44977366255144036,0.5236814699741081,-0.07390780742266778

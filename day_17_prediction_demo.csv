@@ -1,0 +1,4 @@
+,school,sex,age,address,famsize,Pstatus,Medu,Fedu,Mjob,Fjob,reason,guardian,traveltime,studytime,failures,schoolsup,famsup,paid,activities,nursery,higher,internet,romantic,famrel,freetime,goout,Dalc,Walc,health,absences,predicted_category,model_estimated_proba_High,model_estimated_proba_Low,model_estimated_proba_Medium
+636,MS,M,18,U,GT3,T,4,4,teacher,teacher,home,father,1,2,0,no,no,no,yes,no,yes,yes,no,3,2,4,1,4,2,4,High,0.6667,0.1111,0.2222
+220,GP,F,16,U,GT3,A,3,1,services,other,course,mother,1,2,0,no,yes,no,no,yes,yes,yes,no,2,3,3,2,2,4,2,Medium,0.0,0.0,1.0
+594,MS,F,18,U,GT3,T,4,4,teacher,teacher,reputation,mother,2,2,0,no,no,no,yes,no,yes,yes,no,4,3,5,1,2,1,0,High,1.0,0.0,0.0
