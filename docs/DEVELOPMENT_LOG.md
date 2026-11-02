@@ -40,3 +40,8 @@ Executed `Day_07_Preprocessing_Pipeline.ipynb` in a fresh kernel successfully. R
 ## Day 08 repair
 
 Executed `Day_08_Baseline_Classification_Model.ipynb` in a fresh kernel successfully. Restored runnable setup and real cell outputs. No saved error output remains.
+
+
+## Day 09 repair
+
+Executed `Day_09_Decision_Tree_Model.ipynb` in a fresh kernel successfully. Restored runnable setup and real cell outputs. No saved error output remains.
