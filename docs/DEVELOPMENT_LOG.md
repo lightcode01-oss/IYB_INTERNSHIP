@@ -195,3 +195,8 @@ Capture exact dependency versions and add isolated setup and notebook rerun comm
 ## Day 39: Deployment Verification
 
 Verify real local HTTP startup, API inference and Streamlit health while recording the actual hosting status. Notebook executed successfully in 6.4 seconds. Evidence: `reports/day_39.md`.
+
+
+## Day 40: Performance and Reliability Review
+
+Avoid duplicate preprocessing and ensure the reported version identifies the cached model. Notebook executed successfully in 7.7 seconds. Evidence: `reports/day_40.md`.
