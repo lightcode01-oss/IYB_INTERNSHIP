@@ -55,3 +55,8 @@ Executed `Day_10_Random_Forest_Model.ipynb` in a fresh kernel successfully. Rest
 ## Day 11 repair
 
 Executed `Day_11_KNN_Classification_Model.ipynb` in a fresh kernel successfully. Restored runnable setup and real cell outputs. No saved error output remains.
+
+
+## Day 12 repair
+
+Executed `Day_12_SVM_Classification_Model.ipynb` in a fresh kernel successfully. Restored runnable setup and real cell outputs. No saved error output remains.
