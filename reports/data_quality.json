@@ -1,0 +1,27 @@
+{
+  "reference": {
+    "rows": 130,
+    "valid_rows": 130,
+    "invalid_rows": 0,
+    "duplicate_rows": 0,
+    "missing_cells": 0,
+    "issues": []
+  },
+  "explicit_test_scenario": {
+    "rows": 3,
+    "valid_rows": 1,
+    "invalid_rows": 2,
+    "duplicate_rows": 0,
+    "missing_cells": 1,
+    "issues": [
+      {
+        "row": 2,
+        "issue": "Row 2, age: expected an integer between 15 and 22"
+      },
+      {
+        "row": 3,
+        "issue": "Row 3, school: expected one of ['GP', 'MS']"
+      }
+    ]
+  }
+}

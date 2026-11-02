@@ -135,3 +135,8 @@ Measure prediction sensitivity while checking batch and column-order invariance.
 ## Day 27: Input Validation and Reliability
 
 Centralize strict validation and saved-model predictions for all serving paths. Notebook executed successfully in 5.3 seconds. Evidence: `reports/day_27.md`.
+
+
+## Day 28: Data Quality and Schema Diagnostics
+
+Report row-level schema problems, missing values and duplicate records without changing user data. Notebook executed successfully in 8.2 seconds. Evidence: `reports/day_28.md`.
