@@ -120,3 +120,8 @@ Executed `Day_23_Model_Performance_Dashboard.ipynb` in a fresh kernel successful
 ## Day 24: Recovered explainability notebook
 
 Recovered the original Drive notebook and reran all cells. Ten explainability tests passed. Real reports generated; unsupported numerical prose replaced. See reports/day_24.md.
+
+
+## Day 25: Explainability Validation
+
+Verify explanation reproducibility, conservation and uncertainty across shuffle seeds. Notebook executed successfully in 15.3 seconds. Evidence: `reports/day_25.md`.
