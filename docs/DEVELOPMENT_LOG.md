@@ -30,3 +30,8 @@ Executed `Day_05_Exploratory_Data_Analysis.ipynb` in a fresh kernel successfully
 ## Day 06 repair
 
 Executed `Day_06_Feature_Preparation.ipynb` in a fresh kernel successfully. Restored runnable setup and real cell outputs. No saved error output remains.
+
+
+## Day 07 repair
+
+Executed `Day_07_Preprocessing_Pipeline.ipynb` in a fresh kernel successfully. Restored runnable setup and real cell outputs. No saved error output remains.
