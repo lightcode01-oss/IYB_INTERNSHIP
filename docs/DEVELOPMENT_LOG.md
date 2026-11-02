@@ -85,3 +85,8 @@ Executed `Day_16_Final_Model_Selection_Error_Analysis.ipynb` in a fresh kernel s
 ## Day 17 repair
 
 Executed `Day_17_Student_Performance_Prediction_System.ipynb` in a fresh kernel successfully. Restored runnable setup and real cell outputs. No saved error output remains.
+
+
+## Day 18 repair
+
+Executed `Day_18_Testing_Validation_Documentation.ipynb` in a fresh kernel successfully. Restored runnable setup and real cell outputs. No saved error output remains.
