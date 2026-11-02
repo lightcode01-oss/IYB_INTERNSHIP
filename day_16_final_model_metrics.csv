@@ -1,0 +1,2 @@
+Selected Model,Best Hyperparameters,Mean CV Macro F1,CV Macro F1 Std Dev,CV Accuracy,Test Accuracy,Test Macro Precision,Test Macro Recall,Test Macro F1,Generalization Delta
+Decision Tree,"{'classifier__criterion': 'gini', 'classifier__max_depth': 10, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 10}",0.5236814699741081,0.03894230481396425,0.6108663181478715,0.5384615384615384,0.4447496947496948,0.46288156288156285,0.44977366255144036,-0.07390780742266778

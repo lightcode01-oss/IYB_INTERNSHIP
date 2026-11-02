@@ -75,3 +75,8 @@ Executed `Day_14_Cross_Validation_Model_Validation.ipynb` in a fresh kernel succ
 ## Day 15 repair
 
 Executed `Day_15_Hyperparameter_Tuning.ipynb` in a fresh kernel successfully. Restored runnable setup and real cell outputs. No saved error output remains.
+
+
+## Day 16 repair
+
+Executed `Day_16_Final_Model_Selection_Error_Analysis.ipynb` in a fresh kernel successfully. Restored runnable setup and real cell outputs. No saved error output remains.

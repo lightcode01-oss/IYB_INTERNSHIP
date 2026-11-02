@@ -1,0 +1,50 @@
+{
+    "project": "AI-Based Student Performance Prediction System",
+    "internship": "YBI Foundation Python AI & Data Science Internship",
+    "day": 16,
+    "date": "2026-10-12",
+    "selected_model": "Decision Tree",
+    "best_hyperparameters": {
+        "criterion": "gini",
+        "max_depth": 10,
+        "min_samples_leaf": 1,
+        "min_samples_split": 10
+    },
+    "selection_metric": "Mean 5-Fold Stratified CV Macro F1",
+    "training_cv_macro_f1": 0.5236814699741081,
+    "training_cv_macro_f1_std": 0.03894230481396425,
+    "training_cv_accuracy": 0.6108663181478715,
+    "test_metrics": {
+        "accuracy": 0.5384615384615384,
+        "macro_precision": 0.4447496947496948,
+        "macro_recall": 0.46288156288156285,
+        "macro_f1": 0.44977366255144036,
+        "generalization_delta": -0.07390780742266778
+    },
+    "dataset": {
+        "source": "UCI Student Performance Dataset (ID: 320)",
+        "total_samples": 649,
+        "train_samples": 519,
+        "test_samples": 130,
+        "feature_count": 30,
+        "g3_excluded": true,
+        "target_definition": {
+            "Low": "G3 < 10",
+            "Medium": "10 <= G3 < 15",
+            "High": "G3 >= 15"
+        }
+    },
+    "error_analysis_summary": {
+        "total_test_samples": 130,
+        "correct_predictions": 70,
+        "misclassifications": 60,
+        "error_rate": 0.46153846153846156,
+        "adjacent_errors_pct": 93.33333333333333,
+        "non_adjacent_errors_pct": 6.666666666666667
+    },
+    "limitations": [
+        "Dataset contains 649 records; rare multi-attribute subgroups have limited statistical representation.",
+        "Intermediate evaluations (G1, G2) are unavailable, forcing models to rely purely on behavioral and demographic indicators.",
+        "Model outputs represent empirical associations, not causal guarantees."
+    ]
+}
