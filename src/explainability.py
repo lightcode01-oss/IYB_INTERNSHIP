@@ -22,6 +22,7 @@ import joblib
 from sklearn.inspection import permutation_importance
 import matplotlib.pyplot as plt
 import seaborn as sns
+from src.project_paths import result_path
 
 # Set up logger
 logger = logging.getLogger("model_explainability")
@@ -85,9 +86,10 @@ def load_reference_dataset(data_path: Optional[Path] = None) -> Tuple[pd.DataFra
         X (pd.DataFrame): 30 input features.
         y (pd.Series): Ground-truth target categories ('Low', 'Medium', 'High').
     """
-    path = Path(data_path) if data_path else DEFAULT_TEST_DATA_PATH
+    path = Path(data_path) if data_path else result_path("day_16_error_analysis.csv")
     if not path.exists():
         candidates = [
+            PROJECT_ROOT / "notebooks" / "day_16_error_analysis.csv",
             PROJECT_ROOT / "day_16_error_analysis.csv",
             Path.cwd() / "day_16_error_analysis.csv"
         ]

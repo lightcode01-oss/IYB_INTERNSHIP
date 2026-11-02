@@ -27,7 +27,10 @@ def test_target_rule_and_manifest():
 
 def test_notebooks_valid_with_real_execution_state():
     import nbformat
-    paths=list(ROOT.glob('Day_*.ipynb'))+list((ROOT/'notebooks').glob('Day_*.ipynb'))+list(ROOT.glob('YBI_45*.ipynb'))
+    from scripts.notebook_index import notebook_index
+    entries=notebook_index()
+    assert list(entries)==list(range(1,46))
+    paths=[ROOT/path for path in entries.values()]
     for path in paths:
         notebook=nbformat.read(path,as_version=4)
         nbformat.validate(notebook)

@@ -11,3 +11,7 @@ Verification on 2 November 2026:
 - The Git checkout passed the three affected contract tests. Its full suite also passed before this isolated test-only change.
 
 Run `python -m pytest -q` from the folder containing `app.py`, using the project environment described in `docs/REPRODUCIBILITY.md`.
+
+A subsequent check of the current remote found commit `28a285d` (Organize notebooks and results), which moved evaluation CSVs and early notebooks into `notebooks/`. Before path fixes, that layout reproduced 6 failures and 10 errors. The dashboard, explainability loader and final evaluation now locate results in the organized directory while supporting the original layout. The notebook index now finds all 45 current paths. Three added regression tests cover result discovery and collection completeness.
+
+After these fixes the complete suite passed: **88 passed**, four upstream deprecation warnings, no failures or errors.

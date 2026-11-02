@@ -1,32 +1,32 @@
 # Daily notebook index
 
-Days are curriculum milestones. Original Days 1–23 remain at the repository root; Days 24–45 are in notebooks/.
+Days are curriculum milestones. Paths below follow the current repository layout; the original notebook filenames are preserved.
 
 | Day | Notebook |
 |---|---|
-| 01 | [YBI_45_Days_Student_Performance_Prediction](../YBI_45_Days_Student_Performance_Prediction.ipynb) |
-| 02 | [YBI_45_Days_Student_Performance_Prediction(DAY02)](../YBI_45_Days_Student_Performance_Prediction%28DAY02%29.ipynb) |
-| 03 | [Day_03_Dataset_Understanding](../Day_03_Dataset_Understanding.ipynb) |
-| 04 | [Day_04_Data_Quality_Analysis](../Day_04_Data_Quality_Analysis.ipynb) |
-| 05 | [Day_05_Exploratory_Data_Analysis](../Day_05_Exploratory_Data_Analysis.ipynb) |
-| 06 | [Day_06_Feature_Preparation](../Day_06_Feature_Preparation.ipynb) |
-| 07 | [Day_07_Preprocessing_Pipeline](../Day_07_Preprocessing_Pipeline.ipynb) |
-| 08 | [Day_08_Baseline_Classification_Model](../Day_08_Baseline_Classification_Model.ipynb) |
-| 09 | [Day_09_Decision_Tree_Model](../Day_09_Decision_Tree_Model.ipynb) |
-| 10 | [Day_10_Random_Forest_Model](../Day_10_Random_Forest_Model.ipynb) |
-| 11 | [Day_11_KNN_Classification_Model](../Day_11_KNN_Classification_Model.ipynb) |
-| 12 | [Day_12_SVM_Classification_Model](../Day_12_SVM_Classification_Model.ipynb) |
-| 13 | [Day_13_Naive_Bayes_Classification_Model](../Day_13_Naive_Bayes_Classification_Model.ipynb) |
-| 14 | [Day_14_Cross_Validation_Model_Validation](../Day_14_Cross_Validation_Model_Validation.ipynb) |
-| 15 | [Day_15_Hyperparameter_Tuning](../Day_15_Hyperparameter_Tuning.ipynb) |
-| 16 | [Day_16_Final_Model_Selection_Error_Analysis](../Day_16_Final_Model_Selection_Error_Analysis.ipynb) |
-| 17 | [Day_17_Student_Performance_Prediction_System](../Day_17_Student_Performance_Prediction_System.ipynb) |
-| 18 | [Day_18_Testing_Validation_Documentation](../Day_18_Testing_Validation_Documentation.ipynb) |
-| 19 | [Day_19_Streamlit_Prediction_App](../Day_19_Streamlit_Prediction_App.ipynb) |
-| 20 | [Day_20_Prediction_Logging_Model_Monitoring](../Day_20_Prediction_Logging_Model_Monitoring.ipynb) |
-| 21 | [Day_21_Deployment_Preparation](../Day_21_Deployment_Preparation.ipynb) |
-| 22 | [Day_22_Streamlit_App_Deployment](../Day_22_Streamlit_App_Deployment.ipynb) |
-| 23 | [Day_23_Model_Performance_Dashboard](../Day_23_Model_Performance_Dashboard.ipynb) |
+| 01 | [YBI_45_Days_Student_Performance_Prediction](../notebooks/YBI_45_Days_Student_Performance_Prediction.ipynb) |
+| 02 | [YBI_45_Days_Student_Performance_Prediction(DAY02)](../notebooks/YBI_45_Days_Student_Performance_Prediction%28DAY02%29.ipynb) |
+| 03 | [Day_03_Dataset_Understanding](../notebooks/Day_03_Dataset_Understanding.ipynb) |
+| 04 | [Day_04_Data_Quality_Analysis](../notebooks/Day_04_Data_Quality_Analysis.ipynb) |
+| 05 | [Day_05_Exploratory_Data_Analysis](../notebooks/Day_05_Exploratory_Data_Analysis.ipynb) |
+| 06 | [Day_06_Feature_Preparation](../notebooks/Day_06_Feature_Preparation.ipynb) |
+| 07 | [Day_07_Preprocessing_Pipeline](../notebooks/Day_07_Preprocessing_Pipeline.ipynb) |
+| 08 | [Day_08_Baseline_Classification_Model](../notebooks/Day_08_Baseline_Classification_Model.ipynb) |
+| 09 | [Day_09_Decision_Tree_Model](../notebooks/Day_09_Decision_Tree_Model.ipynb) |
+| 10 | [Day_10_Random_Forest_Model](../notebooks/Day_10_Random_Forest_Model.ipynb) |
+| 11 | [Day_11_KNN_Classification_Model](../notebooks/Day_11_KNN_Classification_Model.ipynb) |
+| 12 | [Day_12_SVM_Classification_Model](../notebooks/Day_12_SVM_Classification_Model.ipynb) |
+| 13 | [Day_13_Naive_Bayes_Classification_Model](../notebooks/Day_13_Naive_Bayes_Classification_Model.ipynb) |
+| 14 | [Day_14_Cross_Validation_Model_Validation](../notebooks/Day_14_Cross_Validation_Model_Validation.ipynb) |
+| 15 | [Day_15_Hyperparameter_Tuning](../notebooks/Day_15_Hyperparameter_Tuning.ipynb) |
+| 16 | [Day_16_Final_Model_Selection_Error_Analysis](../notebooks/Day_16_Final_Model_Selection_Error_Analysis.ipynb) |
+| 17 | [Day_17_Student_Performance_Prediction_System](../notebooks/Day_17_Student_Performance_Prediction_System.ipynb) |
+| 18 | [Day_18_Testing_Validation_Documentation](../notebooks/Day_18_Testing_Validation_Documentation.ipynb) |
+| 19 | [Day_19_Streamlit_Prediction_App](../notebooks/Day_19_Streamlit_Prediction_App.ipynb) |
+| 20 | [Day_20_Prediction_Logging_Model_Monitoring](../notebooks/Day_20_Prediction_Logging_Model_Monitoring.ipynb) |
+| 21 | [Day_21_Deployment_Preparation](../notebooks/Day_21_Deployment_Preparation.ipynb) |
+| 22 | [Day_22_Streamlit_App_Deployment](../notebooks/Day_22_Streamlit_App_Deployment.ipynb) |
+| 23 | [Day_23_Model_Performance_Dashboard](../notebooks/Day_23_Model_Performance_Dashboard.ipynb) |
 | 24 | [Day_24_Model_Explainability_Feature_Importance](../notebooks/Day_24_Model_Explainability_Feature_Importance.ipynb) |
 | 25 | [Day_25_Explainability_Validation](../notebooks/Day_25_Explainability_Validation.ipynb) |
 | 26 | [Day_26_Model_Robustness_Testing](../notebooks/Day_26_Model_Robustness_Testing.ipynb) |

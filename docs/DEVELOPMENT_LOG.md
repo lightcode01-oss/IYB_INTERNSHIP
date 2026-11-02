@@ -2,6 +2,8 @@
 
 Post-completion repair, 2 November 2026: reproduced and fixed the notebook test's unnecessary Git dependency in downloaded ZIP archives. The extracted project passed all 85 tests. Details: reports/ZIP_TEST_FIX.md.
 
+Integrated the subsequent notebook/results organization commit without reverting it. Updated evaluation result discovery and the 45-notebook index; added layout regression tests. Full suite: 88 passed, four upstream warnings, no failures or errors.
+
 Repair and extension session: 2 November 2026. Days are curriculum milestones, not claims of elapsed calendar days.
 
 ## Day 01 repair

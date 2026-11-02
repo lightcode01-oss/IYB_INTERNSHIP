@@ -73,8 +73,8 @@ These are generated plots from actual model runs. No application screenshot is c
 
 | Location | Contents |
 |---|---|
-| Root Day 1–23 notebooks | Preserved original project notebook names, repaired and executed |
-| notebooks/ | Day 24 onward, recovered or authored and executed |
+| notebooks/ — Days 1–23 | Preserved original project notebook names, repaired and executed |
+| notebooks/ | Days 24–45, recovered or authored and executed |
 | src/, app.py, api.py, pages/ | Reusable modules and interfaces |
 | artifacts/ | Saved model, checksum, metadata, original split indices and version manifest |
 | data/ | Public cached data and demonstration input; local monitoring is ignored |

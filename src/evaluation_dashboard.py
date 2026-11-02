@@ -51,6 +51,7 @@ def find_evaluation_files(base_dir: Optional[Path] = None) -> Dict[str, Optional
 
     for key, rel_path in EVALUATION_FILENAMES.items():
         candidates = [
+            root / "notebooks" / rel_path,
             root / rel_path,
             Path.cwd() / rel_path,
             root / Path(rel_path).name,

@@ -4,29 +4,29 @@ All daily notebooks were executed in fresh kernels and validated as Jupyter note
 
 | Day | Expected work | Actual notebook | Verification | Status |
 |---|---|---|---|---|
-| 01 | YBI 45 Days Student Performance Prediction | [YBI_45_Days_Student_Performance_Prediction.ipynb](../YBI_45_Days_Student_Performance_Prediction.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
-| 02 | YBI 45 Days Student Performance Prediction(DAY02) | [YBI_45_Days_Student_Performance_Prediction(DAY02).ipynb](../YBI_45_Days_Student_Performance_Prediction%28DAY02%29.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
-| 03 | Day 03 Dataset Understanding | [Day_03_Dataset_Understanding.ipynb](../Day_03_Dataset_Understanding.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
-| 04 | Day 04 Data Quality Analysis | [Day_04_Data_Quality_Analysis.ipynb](../Day_04_Data_Quality_Analysis.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
-| 05 | Day 05 Exploratory Data Analysis | [Day_05_Exploratory_Data_Analysis.ipynb](../Day_05_Exploratory_Data_Analysis.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
-| 06 | Day 06 Feature Preparation | [Day_06_Feature_Preparation.ipynb](../Day_06_Feature_Preparation.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
-| 07 | Day 07 Preprocessing Pipeline | [Day_07_Preprocessing_Pipeline.ipynb](../Day_07_Preprocessing_Pipeline.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
-| 08 | Day 08 Baseline Classification Model | [Day_08_Baseline_Classification_Model.ipynb](../Day_08_Baseline_Classification_Model.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
-| 09 | Day 09 Decision Tree Model | [Day_09_Decision_Tree_Model.ipynb](../Day_09_Decision_Tree_Model.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
-| 10 | Day 10 Random Forest Model | [Day_10_Random_Forest_Model.ipynb](../Day_10_Random_Forest_Model.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
-| 11 | Day 11 KNN Classification Model | [Day_11_KNN_Classification_Model.ipynb](../Day_11_KNN_Classification_Model.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
-| 12 | Day 12 SVM Classification Model | [Day_12_SVM_Classification_Model.ipynb](../Day_12_SVM_Classification_Model.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
-| 13 | Day 13 Naive Bayes Classification Model | [Day_13_Naive_Bayes_Classification_Model.ipynb](../Day_13_Naive_Bayes_Classification_Model.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
-| 14 | Day 14 Cross Validation Model Validation | [Day_14_Cross_Validation_Model_Validation.ipynb](../Day_14_Cross_Validation_Model_Validation.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
-| 15 | Day 15 Hyperparameter Tuning | [Day_15_Hyperparameter_Tuning.ipynb](../Day_15_Hyperparameter_Tuning.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
-| 16 | Day 16 Final Model Selection Error Analysis | [Day_16_Final_Model_Selection_Error_Analysis.ipynb](../Day_16_Final_Model_Selection_Error_Analysis.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
-| 17 | Day 17 Student Performance Prediction System | [Day_17_Student_Performance_Prediction_System.ipynb](../Day_17_Student_Performance_Prediction_System.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
-| 18 | Day 18 Testing Validation Documentation | [Day_18_Testing_Validation_Documentation.ipynb](../Day_18_Testing_Validation_Documentation.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
-| 19 | Day 19 Streamlit Prediction App | [Day_19_Streamlit_Prediction_App.ipynb](../Day_19_Streamlit_Prediction_App.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
-| 20 | Day 20 Prediction Logging Model Monitoring | [Day_20_Prediction_Logging_Model_Monitoring.ipynb](../Day_20_Prediction_Logging_Model_Monitoring.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
-| 21 | Day 21 Deployment Preparation | [Day_21_Deployment_Preparation.ipynb](../Day_21_Deployment_Preparation.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
-| 22 | Day 22 Streamlit App Deployment | [Day_22_Streamlit_App_Deployment.ipynb](../Day_22_Streamlit_App_Deployment.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
-| 23 | Day 23 Model Performance Dashboard | [Day_23_Model_Performance_Dashboard.ipynb](../Day_23_Model_Performance_Dashboard.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
+| 01 | YBI 45 Days Student Performance Prediction | [YBI_45_Days_Student_Performance_Prediction.ipynb](../notebooks/YBI_45_Days_Student_Performance_Prediction.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
+| 02 | YBI 45 Days Student Performance Prediction(DAY02) | [YBI_45_Days_Student_Performance_Prediction(DAY02).ipynb](../notebooks/YBI_45_Days_Student_Performance_Prediction%28DAY02%29.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
+| 03 | Day 03 Dataset Understanding | [Day_03_Dataset_Understanding.ipynb](../notebooks/Day_03_Dataset_Understanding.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
+| 04 | Day 04 Data Quality Analysis | [Day_04_Data_Quality_Analysis.ipynb](../notebooks/Day_04_Data_Quality_Analysis.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
+| 05 | Day 05 Exploratory Data Analysis | [Day_05_Exploratory_Data_Analysis.ipynb](../notebooks/Day_05_Exploratory_Data_Analysis.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
+| 06 | Day 06 Feature Preparation | [Day_06_Feature_Preparation.ipynb](../notebooks/Day_06_Feature_Preparation.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
+| 07 | Day 07 Preprocessing Pipeline | [Day_07_Preprocessing_Pipeline.ipynb](../notebooks/Day_07_Preprocessing_Pipeline.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
+| 08 | Day 08 Baseline Classification Model | [Day_08_Baseline_Classification_Model.ipynb](../notebooks/Day_08_Baseline_Classification_Model.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
+| 09 | Day 09 Decision Tree Model | [Day_09_Decision_Tree_Model.ipynb](../notebooks/Day_09_Decision_Tree_Model.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
+| 10 | Day 10 Random Forest Model | [Day_10_Random_Forest_Model.ipynb](../notebooks/Day_10_Random_Forest_Model.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
+| 11 | Day 11 KNN Classification Model | [Day_11_KNN_Classification_Model.ipynb](../notebooks/Day_11_KNN_Classification_Model.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
+| 12 | Day 12 SVM Classification Model | [Day_12_SVM_Classification_Model.ipynb](../notebooks/Day_12_SVM_Classification_Model.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
+| 13 | Day 13 Naive Bayes Classification Model | [Day_13_Naive_Bayes_Classification_Model.ipynb](../notebooks/Day_13_Naive_Bayes_Classification_Model.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
+| 14 | Day 14 Cross Validation Model Validation | [Day_14_Cross_Validation_Model_Validation.ipynb](../notebooks/Day_14_Cross_Validation_Model_Validation.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
+| 15 | Day 15 Hyperparameter Tuning | [Day_15_Hyperparameter_Tuning.ipynb](../notebooks/Day_15_Hyperparameter_Tuning.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
+| 16 | Day 16 Final Model Selection Error Analysis | [Day_16_Final_Model_Selection_Error_Analysis.ipynb](../notebooks/Day_16_Final_Model_Selection_Error_Analysis.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
+| 17 | Day 17 Student Performance Prediction System | [Day_17_Student_Performance_Prediction_System.ipynb](../notebooks/Day_17_Student_Performance_Prediction_System.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
+| 18 | Day 18 Testing Validation Documentation | [Day_18_Testing_Validation_Documentation.ipynb](../notebooks/Day_18_Testing_Validation_Documentation.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
+| 19 | Day 19 Streamlit Prediction App | [Day_19_Streamlit_Prediction_App.ipynb](../notebooks/Day_19_Streamlit_Prediction_App.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
+| 20 | Day 20 Prediction Logging Model Monitoring | [Day_20_Prediction_Logging_Model_Monitoring.ipynb](../notebooks/Day_20_Prediction_Logging_Model_Monitoring.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
+| 21 | Day 21 Deployment Preparation | [Day_21_Deployment_Preparation.ipynb](../notebooks/Day_21_Deployment_Preparation.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
+| 22 | Day 22 Streamlit App Deployment | [Day_22_Streamlit_App_Deployment.ipynb](../notebooks/Day_22_Streamlit_App_Deployment.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
+| 23 | Day 23 Model Performance Dashboard | [Day_23_Model_Performance_Dashboard.ipynb](../notebooks/Day_23_Model_Performance_Dashboard.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
 | 24 | Day 24 Model Explainability Feature Importance | [Day_24_Model_Explainability_Feature_Importance.ipynb](../notebooks/Day_24_Model_Explainability_Feature_Importance.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
 | 25 | Day 25 Explainability Validation | [Day_25_Explainability_Validation.ipynb](../notebooks/Day_25_Explainability_Validation.ipynb) | Fresh-kernel output and schema checks | Complete and verified |
 | 26 | Day 26 Model Robustness Testing | [Day_26_Model_Robustness_Testing.ipynb](../notebooks/Day_26_Model_Robustness_Testing.ipynb) | Fresh-kernel output and schema checks | Complete and verified |

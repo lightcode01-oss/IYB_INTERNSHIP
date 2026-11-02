@@ -6,13 +6,14 @@ from sklearn.dummy import DummyClassifier
 from sklearn.metrics import accuracy_score,f1_score,precision_score,recall_score,classification_report,confusion_matrix
 from src.dataset import ROOT,original_split
 from src.prediction import get_pipeline,model_id
+from src.project_paths import result_path
 
 LABELS=['Low','Medium','High']
 
 def review_evaluation(repeats=500,seed=42):
     Xtrain,Xtest,ytrain,ytest=original_split()
     meta=json.loads((ROOT/'artifacts/student_performance_metadata.json').read_text())
-    tuning=pd.read_csv(ROOT/'day_15_tuning_results.csv').sort_values('Tuned Mean CV Macro F1',ascending=False)
+    tuning=pd.read_csv(result_path('day_15_tuning_results.csv')).sort_values('Tuned Mean CV Macro F1',ascending=False)
     champion=tuning.iloc[0]
     assert champion.Model==meta['model_selection']['selected_model']
     assert np.isclose(champion['Tuned Mean CV Macro F1'],meta['model_selection']['training_cv_macro_f1'])
@@ -20,7 +21,7 @@ def review_evaluation(repeats=500,seed=42):
     for key,value in meta['model_selection']['selected_hyperparameters'].items():
         assert model.named_steps['classifier'].get_params()[key]==value
     predicted=model.predict(Xtest)
-    saved=pd.read_csv(ROOT/'day_16_error_analysis.csv',index_col=0)
+    saved=pd.read_csv(result_path('day_16_error_analysis.csv'),index_col=0)
     assert list(saved.index)==list(Xtest.index)
     assert np.array_equal(predicted,saved.predicted_category)
     actual=ytest.to_numpy()
