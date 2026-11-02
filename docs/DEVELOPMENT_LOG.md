@@ -185,3 +185,8 @@ Save data provenance, model hashes, original split indices and environment versi
 ## Day 37: Automated Regression Testing
 
 Add cross-interface contract tests and a continuous-integration workflow. Notebook executed successfully in 11.5 seconds. Evidence: `reports/day_37.md`.
+
+
+## Day 38: Reproducible Environment
+
+Capture exact dependency versions and add isolated setup and notebook rerun commands. Notebook executed successfully in 2.6 seconds. Evidence: `reports/day_38.md`.
