@@ -125,3 +125,8 @@ Recovered the original Drive notebook and reran all cells. Ten explainability te
 ## Day 25: Explainability Validation
 
 Verify explanation reproducibility, conservation and uncertainty across shuffle seeds. Notebook executed successfully in 15.3 seconds. Evidence: `reports/day_25.md`.
+
+
+## Day 26: Model Robustness Testing
+
+Measure prediction sensitivity while checking batch and column-order invariance. Notebook executed successfully in 4.0 seconds. Evidence: `reports/day_26.md`.
