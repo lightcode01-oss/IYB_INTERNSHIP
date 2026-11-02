@@ -175,3 +175,8 @@ Bound and validate CSV uploads before producing ordered predictions. Notebook ex
 ## Day 35: Monitoring Reliability Improvements
 
 Protect local event writes and add a clearly scoped prediction-distribution comparison. Notebook executed successfully in 9.2 seconds. Evidence: `reports/day_35.md`.
+
+
+## Day 36: Model and Data Version Documentation
+
+Save data provenance, model hashes, original split indices and environment versions. Notebook executed successfully in 2.8 seconds. Evidence: `reports/day_36.md`.

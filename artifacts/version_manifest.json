@@ -1,0 +1,99 @@
+{
+  "dataset": {
+    "source": "https://archive.ics.uci.edu/dataset/320/student+performance",
+    "citation": "Cortez, P. (2008). Student Performance. UCI. DOI: 10.24432/C5TG7T",
+    "license": "CC BY 4.0",
+    "cached_csv_sha256": "5be7b02f13f5800fddd66e2c8d834cd00ece14c552fb404def2397b31b63236b",
+    "rows": 649,
+    "features": [
+      "school",
+      "sex",
+      "age",
+      "address",
+      "famsize",
+      "Pstatus",
+      "Medu",
+      "Fedu",
+      "Mjob",
+      "Fjob",
+      "reason",
+      "guardian",
+      "traveltime",
+      "studytime",
+      "failures",
+      "schoolsup",
+      "famsup",
+      "paid",
+      "activities",
+      "nursery",
+      "higher",
+      "internet",
+      "romantic",
+      "famrel",
+      "freetime",
+      "goout",
+      "Dalc",
+      "Walc",
+      "health",
+      "absences"
+    ],
+    "excluded": [
+      "G1",
+      "G2",
+      "G3",
+      "performance_category"
+    ],
+    "train_rows": 519,
+    "test_rows": 130,
+    "class_counts": {
+      "Medium": 334,
+      "High": 105,
+      "Low": 80
+    }
+  },
+  "split": {
+    "test_size": 0.2,
+    "random_state": 42,
+    "stratify": "performance_category",
+    "indices_file": "artifacts/split_indices.json"
+  },
+  "target": {
+    "Low": "G3 < 10",
+    "Medium": "10 <= G3 < 15",
+    "High": "G3 >= 15"
+  },
+  "model": {
+    "sha256": "1bedf35d0d56c4f090cd28d2a317a10533eba0e28489d2318aebdde2d105fb83",
+    "estimator": "DecisionTreeClassifier",
+    "parameters": {
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": 10,
+      "max_features": null,
+      "max_leaf_nodes": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 10,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "random_state": 42,
+      "splitter": "best"
+    },
+    "selection": "training-only five-fold stratified CV Macro F1",
+    "classes": [
+      "High",
+      "Low",
+      "Medium"
+    ]
+  },
+  "environment": {
+    "python": "3.14.2",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scikit-learn": "1.9.0",
+    "joblib": "1.6.0",
+    "streamlit": "1.66.1"
+  },
+  "evaluation_scope": "Historical test set already inspected in earlier days; not independent external validation."
+}
