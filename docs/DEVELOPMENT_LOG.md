@@ -20,3 +20,8 @@ Executed `Day_03_Dataset_Understanding.ipynb` in a fresh kernel successfully. Re
 ## Day 04 repair
 
 Executed `Day_04_Data_Quality_Analysis.ipynb` in a fresh kernel successfully. Restored runnable setup and real cell outputs. No saved error output remains.
+
+
+## Day 05 repair
+
+Executed `Day_05_Exploratory_Data_Analysis.ipynb` in a fresh kernel successfully. Restored runnable setup and real cell outputs. No saved error output remains.
