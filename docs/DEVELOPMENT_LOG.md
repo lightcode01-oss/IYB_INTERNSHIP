@@ -180,3 +180,8 @@ Protect local event writes and add a clearly scoped prediction-distribution comp
 ## Day 36: Model and Data Version Documentation
 
 Save data provenance, model hashes, original split indices and environment versions. Notebook executed successfully in 2.8 seconds. Evidence: `reports/day_36.md`.
+
+
+## Day 37: Automated Regression Testing
+
+Add cross-interface contract tests and a continuous-integration workflow. Notebook executed successfully in 11.5 seconds. Evidence: `reports/day_37.md`.
