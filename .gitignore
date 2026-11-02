@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Local monitoring logs and data (Privacy & Operational Protection)
+data/monitoring/
+*.log
+*.sqlite
+*.sqlite3
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets and credentials
+.streamlit/secrets.toml
+
+# Local batch prediction export artifacts
+*batch_predictions*.csv
+
+# Environment configurations
+.env
+.env.*
+
+# Testing & temporary cache
+.pytest_cache/
+*.tmp
+scratch/
