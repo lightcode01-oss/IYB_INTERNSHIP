@@ -140,3 +140,8 @@ Centralize strict validation and saved-model predictions for all serving paths. 
 ## Day 28: Data Quality and Schema Diagnostics
 
 Report row-level schema problems, missing values and duplicate records without changing user data. Notebook executed successfully in 8.2 seconds. Evidence: `reports/day_28.md`.
+
+
+## Day 29: Prediction API
+
+Expose the existing validated model through local health and prediction endpoints. Notebook executed successfully in 3.5 seconds. Evidence: `reports/day_29.md`.
