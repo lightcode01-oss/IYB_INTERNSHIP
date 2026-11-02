@@ -171,7 +171,7 @@ def main():
         st.subheader("Monitoring & Privacy Controls")
         enable_logging = st.checkbox(
             "Enable Prediction Logging",
-            value=True,
+            value=False,
             help="Record anonymous operational telemetry for post-deployment monitoring."
         )
         log_features = st.checkbox(

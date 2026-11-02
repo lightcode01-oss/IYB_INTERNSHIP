@@ -155,3 +155,8 @@ Test API parity, request errors, unavailable models and the documented endpoint 
 ## Day 31: Application Integration
 
 Use one validation and prediction service for Streamlit and the optional API. Notebook executed successfully in 11.2 seconds. Evidence: `reports/day_31.md`.
+
+
+## Day 32: Application Security Review
+
+Bound request sizes, verify the model checksum and test privacy-related regressions. Notebook executed successfully in 4.4 seconds. Evidence: `reports/day_32.md`.

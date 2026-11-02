@@ -14,6 +14,8 @@ MODEL_PATH=ROOT/'artifacts/student_performance_pipeline.joblib'
 @lru_cache(maxsize=1)
 def get_pipeline():
     # Only load the repository-owned artifact; never accept a request file path.
+    from src.security import verify_model
+    verify_model(MODEL_PATH, ROOT/"artifacts/student_performance_pipeline.sha256")
     model=joblib.load(MODEL_PATH)
     if list(model.feature_names_in_)!=CANONICAL_FEATURES:
         raise RuntimeError('Model input schema does not match the serving contract')

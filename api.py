@@ -7,6 +7,9 @@ from src.validation import InputValidationError,MAX_ROWS
 
 app=FastAPI(title='Student Performance Demonstration',version='1.0.0',description='Portfolio demonstration; not for educational decisions. Probabilities are uncalibrated model estimates.')
 
+from src.security import BodyLimitMiddleware
+app.add_middleware(BodyLimitMiddleware)
+
 class PredictionRequest(BaseModel):
     model_config=ConfigDict(extra='forbid')
     records:list[dict[str,Any]]=Field(min_length=1,max_length=MAX_ROWS)
