@@ -1,0 +1,7 @@
+Model,Baseline Mean CV Macro F1,Baseline Macro F1 Standard Deviation,Tuned Mean CV Macro F1,Tuned Macro F1 Standard Deviation,Change in Mean CV Macro F1,Best Parameters
+Decision Tree,0.4796617290609656,0.048308969388235465,0.5236814699741081,0.03894230481396425,0.044019740913142535,"{'classifier__criterion': 'gini', 'classifier__max_depth': 10, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 10}"
+Logistic Regression,0.4308489149924906,0.05458834880429717,0.47580539547421374,0.04463275143118734,0.04495648048172313,"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced'}"
+SVM,0.31419733295625074,0.038385993304710445,0.4731198960351074,0.03706570171558142,0.15892256307885666,"{'classifier__C': 10.0, 'classifier__gamma': 'scale'}"
+KNN,0.3751284777124499,0.06610670885469759,0.45430463888434963,0.07199448907970368,0.07917616117189974,"{'classifier__n_neighbors': 3, 'classifier__p': 1, 'classifier__weights': 'distance'}"
+Gaussian Naive Bayes,0.37955032820129186,0.03542619106943643,0.4103429869658714,0.044076899354776544,0.03079265876457954,{'classifier__var_smoothing': 1e-05}
+Random Forest,0.40919655728534937,0.06398812882744251,0.40919655728534937,0.06398812882744251,0.0,"{'classifier__max_depth': None, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 100}"

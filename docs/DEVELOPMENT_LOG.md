@@ -70,3 +70,8 @@ Executed `Day_13_Naive_Bayes_Classification_Model.ipynb` in a fresh kernel succe
 ## Day 14 repair
 
 Executed `Day_14_Cross_Validation_Model_Validation.ipynb` in a fresh kernel successfully. Restored runnable setup and real cell outputs. No saved error output remains.
+
+
+## Day 15 repair
+
+Executed `Day_15_Hyperparameter_Tuning.ipynb` in a fresh kernel successfully. Restored runnable setup and real cell outputs. No saved error output remains.
