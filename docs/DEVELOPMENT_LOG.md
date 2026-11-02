@@ -145,3 +145,8 @@ Report row-level schema problems, missing values and duplicate records without c
 ## Day 29: Prediction API
 
 Expose the existing validated model through local health and prediction endpoints. Notebook executed successfully in 3.5 seconds. Evidence: `reports/day_29.md`.
+
+
+## Day 30: API Testing and Documentation
+
+Test API parity, request errors, unavailable models and the documented endpoint schema. Notebook executed successfully in 6.5 seconds. Evidence: `reports/day_30.md`.
