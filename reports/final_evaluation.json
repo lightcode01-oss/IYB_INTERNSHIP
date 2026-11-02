@@ -1,0 +1,81 @@
+{
+  "model_id": "1bedf35d0d56c4f0",
+  "selected_model": "Decision Tree",
+  "training_cv_macro_f1": 0.5236814699741081,
+  "training_cv_std": 0.03894230481396425,
+  "historical_test_rows": 130,
+  "metrics": {
+    "accuracy": 0.5384615384615384,
+    "macro_precision": 0.4447496947496948,
+    "macro_recall": 0.46288156288156285,
+    "macro_f1": 0.44977366255144036
+  },
+  "majority_baseline_macro_f1": 0.2616822429906542,
+  "conditional_bootstrap_macro_f1_95_percentile": [
+    0.34722657869533885,
+    0.5332758797065215
+  ],
+  "bootstrap_repeats": 500,
+  "bootstrap_seed": 42,
+  "classification_report": {
+    "Low": {
+      "precision": 0.32142857142857145,
+      "recall": 0.45,
+      "f1-score": 0.375,
+      "support": 20.0
+    },
+    "Medium": {
+      "precision": 0.6794871794871795,
+      "recall": 0.6309523809523809,
+      "f1-score": 0.654320987654321,
+      "support": 84.0
+    },
+    "High": {
+      "precision": 0.3333333333333333,
+      "recall": 0.3076923076923077,
+      "f1-score": 0.32,
+      "support": 26.0
+    },
+    "accuracy": 0.5384615384615384,
+    "macro avg": {
+      "precision": 0.4447496947496947,
+      "recall": 0.46288156288156285,
+      "f1-score": 0.44977366255144036,
+      "support": 130.0
+    },
+    "weighted avg": {
+      "precision": 0.5551704705550861,
+      "recall": 0.5384615384615384,
+      "f1-score": 0.5444843304843304,
+      "support": 130.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      9,
+      9,
+      2
+    ],
+    [
+      17,
+      53,
+      14
+    ],
+    [
+      2,
+      16,
+      8
+    ]
+  ],
+  "class_order": [
+    "Low",
+    "Medium",
+    "High"
+  ],
+  "limitations": [
+    "Historical test set reused during earlier exploration; not fresh external validation.",
+    "Bootstrap holds class counts fixed and conditions on this fitted model; it does not account for training or model-selection uncertainty.",
+    "Small observational dataset from two Portuguese schools; no causal or educational decision validity.",
+    "Class probabilities are not calibrated."
+  ]
+}

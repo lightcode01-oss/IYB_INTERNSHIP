@@ -205,3 +205,8 @@ Avoid duplicate preprocessing and ensure the reported version identifies the cac
 ## Day 41: Documentation Consolidation
 
 Connect the project architecture, data, model workflow and operating guides in one maintained index. Notebook executed successfully in 1.3 seconds. Evidence: `reports/day_41.md`.
+
+
+## Day 42: Final ML Evaluation Review
+
+Audit model-selection evidence and reproduce historical metrics with an explicit baseline and uncertainty estimate. Notebook executed successfully in 5.5 seconds. Evidence: `reports/day_42.md`.
