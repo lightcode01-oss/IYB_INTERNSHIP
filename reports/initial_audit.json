@@ -1,0 +1,242 @@
+[
+  {
+    "file": "ANN_Classification.ipynb",
+    "code_cells": 2,
+    "executed": 0,
+    "errors": [],
+    "sha256": "a8850556a76376dfab50d91397adea3ff0c80a1cf53f135a15b54f16768c3f24"
+  },
+  {
+    "file": "Basics_of_Linear_Regression_Model.ipynb",
+    "code_cells": 1,
+    "executed": 0,
+    "errors": [],
+    "sha256": "a1e844a500b9cf8250047cc2c83ea88811c58c22d487f9743e8b5589f2888488"
+  },
+  {
+    "file": "Day_03_Dataset_Understanding.ipynb",
+    "code_cells": 35,
+    "executed": 35,
+    "errors": [],
+    "sha256": "0086b79fc8e4735ea8e6f9278c5d917120c35979ce352184091b4385b2a400c2"
+  },
+  {
+    "file": "Day_04_Data_Quality_Analysis.ipynb",
+    "code_cells": 26,
+    "executed": 26,
+    "errors": [],
+    "sha256": "32d13b236b1b3036abcf1794cbf37fd29739c743b10cab3a6854c496eeb77794"
+  },
+  {
+    "file": "Day_05_Exploratory_Data_Analysis.ipynb",
+    "code_cells": 35,
+    "executed": 35,
+    "errors": [],
+    "sha256": "15e21084e1a59cf78d69c7765b1445aa7f4399c130751b55c3a75e4825cd1069"
+  },
+  {
+    "file": "Day_06_Feature_Preparation.ipynb",
+    "code_cells": 24,
+    "executed": 24,
+    "errors": [],
+    "sha256": "52d4d73ef2989dc61a463bf390339c157a6af9d2e25f4ae82174b4af357f713e"
+  },
+  {
+    "file": "Day_07_Preprocessing_Pipeline.ipynb",
+    "code_cells": 26,
+    "executed": 26,
+    "errors": [],
+    "sha256": "3df6b9d9effcaf6f7d0db0dda764f2671f348571dac81635fe0138866450d002"
+  },
+  {
+    "file": "Day_08_Baseline_Classification_Model.ipynb",
+    "code_cells": 31,
+    "executed": 31,
+    "errors": [],
+    "sha256": "5e5e9ac0c2111332e614ad58983f3f3fa8189927abffb830ab0fd1e3c65d44de"
+  },
+  {
+    "file": "Day_09_Decision_Tree_Model.ipynb",
+    "code_cells": 31,
+    "executed": 0,
+    "errors": [],
+    "sha256": "622337d901b2d8b69fe1939bae42512061fbc548b73c3be805aa9950035e8837"
+  },
+  {
+    "file": "Day_10_Random_Forest_Model.ipynb",
+    "code_cells": 41,
+    "executed": 41,
+    "errors": [],
+    "sha256": "40b646dd89fc9bc8952d7789b41002c6826c4f0d6f7967bf5338bf102c26db06"
+  },
+  {
+    "file": "Day_11_KNN_Classification_Model.ipynb",
+    "code_cells": 39,
+    "executed": 0,
+    "errors": [],
+    "sha256": "fa5d8d7fa76da97735073ffa1da8de6bbf6f42ff8bd3a92ec96e3a1514f3de89"
+  },
+  {
+    "file": "Day_12_SVM_Classification_Model.ipynb",
+    "code_cells": 43,
+    "executed": 43,
+    "errors": [],
+    "sha256": "1828ba94b625e9618ce66c7b07f6e9d460875687c813c347d8f3ab729465de6c"
+  },
+  {
+    "file": "Day_13_Naive_Bayes_Classification_Model.ipynb",
+    "code_cells": 22,
+    "executed": 22,
+    "errors": [],
+    "sha256": "6afd0d16fd0e2160232002d0fd960246afb74f6ff69484f588b0477471177ecd"
+  },
+  {
+    "file": "Day_14_Cross_Validation_Model_Validation.ipynb",
+    "code_cells": 16,
+    "executed": 16,
+    "errors": [],
+    "sha256": "3c0fe0898bf8c958dcf0bb9aa7bdcc5ad42f592a0bbcdeb6429aa8d0f49f9b19"
+  },
+  {
+    "file": "Day_15_Hyperparameter_Tuning.ipynb",
+    "code_cells": 18,
+    "executed": 18,
+    "errors": [],
+    "sha256": "d02da176014ae8dd067e6069bd4effa593ec9682ee3119a7c2700b65077adc62"
+  },
+  {
+    "file": "Day_16_Final_Model_Selection_Error_Analysis.ipynb",
+    "code_cells": 19,
+    "executed": 19,
+    "errors": [],
+    "sha256": "9958469335244292a59281f3efd2928db3cb63be5aef1b29f73588a810731373"
+  },
+  {
+    "file": "Day_17_Student_Performance_Prediction_System.ipynb",
+    "code_cells": 14,
+    "executed": 14,
+    "errors": [],
+    "sha256": "207d79bd9e9213ea42f1a12b37896f0c5d05b5fb648eca757d21a19fb0479134"
+  },
+  {
+    "file": "Day_18_Testing_Validation_Documentation.ipynb",
+    "code_cells": 15,
+    "executed": 15,
+    "errors": [],
+    "sha256": "31a7816062452958776384fdcaae079b6f328f23b210c1a26672e1fbd09d6d6a"
+  },
+  {
+    "file": "Day_19_Streamlit_Prediction_App.ipynb",
+    "code_cells": 8,
+    "executed": 8,
+    "errors": [],
+    "sha256": "b7018e5b05d77a96a63c6bd659fe42f2c9320e9a029b0886bea764155a9c0f8b"
+  },
+  {
+    "file": "Day_20_Prediction_Logging_Model_Monitoring.ipynb",
+    "code_cells": 8,
+    "executed": 8,
+    "errors": [],
+    "sha256": "e5a07ee79d72d5cfc90b930741725453774b745ba3b6529ba19fe122069cc4ca"
+  },
+  {
+    "file": "Day_21_Deployment_Preparation.ipynb",
+    "code_cells": 6,
+    "executed": 6,
+    "errors": [],
+    "sha256": "e4119f69452f581a06becfc4d5f8dfd76f250cf2f731d352125fbb0f50ec28f0"
+  },
+  {
+    "file": "Day_22_Streamlit_App_Deployment.ipynb",
+    "code_cells": 5,
+    "executed": 5,
+    "errors": [],
+    "sha256": "056428e4609e7cbecd9a1bf48d76b12b5943e77a271bc3018459aff59d93037f"
+  },
+  {
+    "file": "Day_23_Model_Performance_Dashboard.ipynb",
+    "code_cells": 10,
+    "executed": 10,
+    "errors": [],
+    "sha256": "1eb73fb2aac8cd56f7c0d3163b248a59cab7cb1898600011999ff5a974140dc9"
+  },
+  {
+    "file": "Internship.ipynb",
+    "code_cells": 1,
+    "executed": 0,
+    "errors": [],
+    "sha256": "987500061a199ca7c4b190fef17168cb7f0a98347c71767d6c66eae41ef63cbf"
+  },
+  {
+    "file": "Matplotlib_Histogram.ipynb",
+    "code_cells": 6,
+    "executed": 0,
+    "errors": [],
+    "sha256": "61585540740f2cf39d47e52967bdeec4570a892b623afb35adf00dbdafe47f43"
+  },
+  {
+    "file": "Matplotlib_Line_Chart.ipynb",
+    "code_cells": 7,
+    "executed": 0,
+    "errors": [],
+    "sha256": "4d1e20ba7200055ea7a693fcd041d5d32721b78d435701f3d0d75deb99d7761f"
+  },
+  {
+    "file": "Matplotlib_Scatter_Plot.ipynb",
+    "code_cells": 4,
+    "executed": 0,
+    "errors": [],
+    "sha256": "6a0e2209a91f10f32fadf4af9bfe7035682dfbffb72a38d7963a2ba270af544d"
+  },
+  {
+    "file": "Pandas_Read_and_Write_External_Files.ipynb",
+    "code_cells": 8,
+    "executed": 0,
+    "errors": [],
+    "sha256": "c17ce6586a9c5b8c170230cefc607c64c4f66fc26b879977f667dbe0feebe0e5"
+  },
+  {
+    "file": "Python_Conditional_Statement.ipynb",
+    "code_cells": 1,
+    "executed": 0,
+    "errors": [],
+    "sha256": "01bd13ca29abe3ad776ee72210d681b1d1be9460a267f9b355dc826e57a8317c"
+  },
+  {
+    "file": "Python_Data_Types.ipynb",
+    "code_cells": 49,
+    "executed": 0,
+    "errors": [],
+    "sha256": "1dee9a9b567718fcf4814afc5ee70b254ad3ae2234ecad2024377ec797c23e90"
+  },
+  {
+    "file": "Python_Operators.ipynb",
+    "code_cells": 7,
+    "executed": 0,
+    "errors": [],
+    "sha256": "c768afabd8342ed5e4d0ef8ca24c63d25ff51bb2455d77e2de10a069f0eddeb0"
+  },
+  {
+    "file": "Python_Variables.ipynb",
+    "code_cells": 9,
+    "executed": 0,
+    "errors": [
+      "SyntaxError: invalid syntax (<ipython-input-1-f6c6eaa3b529>, line 27)"
+    ],
+    "sha256": "96b778b2c02c48195fd18901d7a34f83160f52420de9f7900c6fbbe3acc1e025"
+  },
+  {
+    "file": "YBI_45_Days_Student_Performance_Prediction(DAY02).ipynb",
+    "code_cells": 16,
+    "executed": 0,
+    "errors": [],
+    "sha256": "552acad3bea2113bdfd817e58198471d859b637201ca492421d0857392e44c5b"
+  },
+  {
+    "file": "YBI_45_Days_Student_Performance_Prediction.ipynb",
+    "code_cells": 4,
+    "executed": 4,
+    "errors": [],
+    "sha256": "2d7450aff7aece94e4fc6fd2831ab72b5f6c85a152fe9e4665f1bbd62a790f93"
+  }
+]

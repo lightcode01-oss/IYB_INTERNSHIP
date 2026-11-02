@@ -1,0 +1,361 @@
+[
+  {
+    "predicted_category": "Low",
+    "predicted_probabilities": {
+      "High": 0.0,
+      "Low": 1.0,
+      "Medium": 0.0
+    },
+    "traversed_depth": 6,
+    "decision_rules": [
+      {
+        "node_id": 0,
+        "feature": "failures",
+        "student_value": 0.0,
+        "threshold": 0.5,
+        "operator": "<=",
+        "rule_description": "failures = 0.0 (<= 0.50)"
+      },
+      {
+        "node_id": 1,
+        "feature": "age",
+        "student_value": 17.0,
+        "threshold": 16.5,
+        "operator": ">",
+        "rule_description": "age = 17.0 (> 16.50)"
+      },
+      {
+        "node_id": 57,
+        "feature": "studytime",
+        "student_value": 1.0,
+        "threshold": 1.5,
+        "operator": "<=",
+        "rule_description": "studytime = 1.0 (<= 1.50)"
+      },
+      {
+        "node_id": 58,
+        "feature": "Mjob_health",
+        "student_value": 0.0,
+        "threshold": 0.5,
+        "operator": "<=",
+        "rule_description": "Feature 'Mjob_health' was 0.0 (<= 0.50)"
+      },
+      {
+        "node_id": 59,
+        "feature": "famrel",
+        "student_value": 4.0,
+        "threshold": 1.5,
+        "operator": ">",
+        "rule_description": "famrel = 4.0 (> 1.50)"
+      },
+      {
+        "node_id": 61,
+        "feature": "Dalc",
+        "student_value": 5.0,
+        "threshold": 4.5,
+        "operator": ">",
+        "rule_description": "Dalc = 5.0 (> 4.50)"
+      }
+    ],
+    "cohort_comparison": {
+      "failures": {
+        "student_value": 0,
+        "cohort_mean": 0.2,
+        "cohort_median": 0.0
+      },
+      "absences": {
+        "student_value": 8,
+        "cohort_mean": 3.86,
+        "cohort_median": 2.0
+      },
+      "studytime": {
+        "student_value": 1,
+        "cohort_mean": 1.84,
+        "cohort_median": 2.0
+      },
+      "Medu": {
+        "student_value": 3,
+        "cohort_mean": 2.38,
+        "cohort_median": 2.0
+      },
+      "Fedu": {
+        "student_value": 3,
+        "cohort_mean": 2.21,
+        "cohort_median": 2.0
+      },
+      "goout": {
+        "student_value": 4,
+        "cohort_mean": 3.28,
+        "cohort_median": 3.0
+      },
+      "health": {
+        "student_value": 3,
+        "cohort_mean": 3.54,
+        "cohort_median": 4.0
+      },
+      "Dalc": {
+        "student_value": 5,
+        "cohort_mean": 1.64,
+        "cohort_median": 1.0
+      },
+      "Walc": {
+        "student_value": 5,
+        "cohort_mean": 2.48,
+        "cohort_median": 2.0
+      }
+    },
+    "methodological_notice": "This explanation traces the exact sequence of decision boundaries evaluated by the champion Decision Tree for this specific student. Observed rules indicate classification logic, not deterministic causes of academic performance.",
+    "actual_category": "Low",
+    "sample_index": 1
+  },
+  {
+    "predicted_category": "Medium",
+    "predicted_probabilities": {
+      "High": 0.0,
+      "Low": 0.09090909090909091,
+      "Medium": 0.9090909090909091
+    },
+    "traversed_depth": 10,
+    "decision_rules": [
+      {
+        "node_id": 0,
+        "feature": "failures",
+        "student_value": 0.0,
+        "threshold": 0.5,
+        "operator": "<=",
+        "rule_description": "failures = 0.0 (<= 0.50)"
+      },
+      {
+        "node_id": 1,
+        "feature": "age",
+        "student_value": 17.0,
+        "threshold": 16.5,
+        "operator": ">",
+        "rule_description": "age = 17.0 (> 16.50)"
+      },
+      {
+        "node_id": 57,
+        "feature": "studytime",
+        "student_value": 1.0,
+        "threshold": 1.5,
+        "operator": "<=",
+        "rule_description": "studytime = 1.0 (<= 1.50)"
+      },
+      {
+        "node_id": 58,
+        "feature": "Mjob_health",
+        "student_value": 0.0,
+        "threshold": 0.5,
+        "operator": "<=",
+        "rule_description": "Feature 'Mjob_health' was 0.0 (<= 0.50)"
+      },
+      {
+        "node_id": 59,
+        "feature": "famrel",
+        "student_value": 4.0,
+        "threshold": 1.5,
+        "operator": ">",
+        "rule_description": "famrel = 4.0 (> 1.50)"
+      },
+      {
+        "node_id": 61,
+        "feature": "Dalc",
+        "student_value": 1.0,
+        "threshold": 4.5,
+        "operator": "<=",
+        "rule_description": "Dalc = 1.0 (<= 4.50)"
+      },
+      {
+        "node_id": 62,
+        "feature": "famsize_GT3",
+        "student_value": 1.0,
+        "threshold": 0.5,
+        "operator": ">",
+        "rule_description": "Feature 'famsize_GT3' was 1.0 (> 0.50)"
+      },
+      {
+        "node_id": 64,
+        "feature": "internet_no",
+        "student_value": 0.0,
+        "threshold": 0.5,
+        "operator": "<=",
+        "rule_description": "Feature 'internet_no' was 0.0 (<= 0.50)"
+      },
+      {
+        "node_id": 65,
+        "feature": "reason_other",
+        "student_value": 0.0,
+        "threshold": 0.5,
+        "operator": "<=",
+        "rule_description": "Feature 'reason_other' was 0.0 (<= 0.50)"
+      },
+      {
+        "node_id": 66,
+        "feature": "famsup_no",
+        "student_value": 0.0,
+        "threshold": 0.5,
+        "operator": "<=",
+        "rule_description": "Feature 'famsup_no' was 0.0 (<= 0.50)"
+      }
+    ],
+    "cohort_comparison": {
+      "failures": {
+        "student_value": 0,
+        "cohort_mean": 0.2,
+        "cohort_median": 0.0
+      },
+      "absences": {
+        "student_value": 0,
+        "cohort_mean": 3.86,
+        "cohort_median": 2.0
+      },
+      "studytime": {
+        "student_value": 1,
+        "cohort_mean": 1.84,
+        "cohort_median": 2.0
+      },
+      "Medu": {
+        "student_value": 1,
+        "cohort_mean": 2.38,
+        "cohort_median": 2.0
+      },
+      "Fedu": {
+        "student_value": 1,
+        "cohort_mean": 2.21,
+        "cohort_median": 2.0
+      },
+      "goout": {
+        "student_value": 5,
+        "cohort_mean": 3.28,
+        "cohort_median": 3.0
+      },
+      "health": {
+        "student_value": 5,
+        "cohort_mean": 3.54,
+        "cohort_median": 4.0
+      },
+      "Dalc": {
+        "student_value": 1,
+        "cohort_mean": 1.64,
+        "cohort_median": 1.0
+      },
+      "Walc": {
+        "student_value": 2,
+        "cohort_mean": 2.48,
+        "cohort_median": 2.0
+      }
+    },
+    "methodological_notice": "This explanation traces the exact sequence of decision boundaries evaluated by the champion Decision Tree for this specific student. Observed rules indicate classification logic, not deterministic causes of academic performance.",
+    "actual_category": "Medium",
+    "sample_index": 0
+  },
+  {
+    "predicted_category": "Low",
+    "predicted_probabilities": {
+      "High": 0.0,
+      "Low": 0.5,
+      "Medium": 0.5
+    },
+    "traversed_depth": 6,
+    "decision_rules": [
+      {
+        "node_id": 0,
+        "feature": "failures",
+        "student_value": 0.0,
+        "threshold": 0.5,
+        "operator": "<=",
+        "rule_description": "failures = 0.0 (<= 0.50)"
+      },
+      {
+        "node_id": 1,
+        "feature": "age",
+        "student_value": 17.0,
+        "threshold": 16.5,
+        "operator": ">",
+        "rule_description": "age = 17.0 (> 16.50)"
+      },
+      {
+        "node_id": 57,
+        "feature": "studytime",
+        "student_value": 2.0,
+        "threshold": 1.5,
+        "operator": ">",
+        "rule_description": "studytime = 2.0 (> 1.50)"
+      },
+      {
+        "node_id": 73,
+        "feature": "health",
+        "student_value": 1.0,
+        "threshold": 1.5,
+        "operator": "<=",
+        "rule_description": "health = 1.0 (<= 1.50)"
+      },
+      {
+        "node_id": 74,
+        "feature": "age",
+        "student_value": 17.0,
+        "threshold": 18.5,
+        "operator": "<=",
+        "rule_description": "age = 17.0 (<= 18.50)"
+      },
+      {
+        "node_id": 75,
+        "feature": "freetime",
+        "student_value": 5.0,
+        "threshold": 4.5,
+        "operator": ">",
+        "rule_description": "freetime = 5.0 (> 4.50)"
+      }
+    ],
+    "cohort_comparison": {
+      "failures": {
+        "student_value": 0,
+        "cohort_mean": 0.2,
+        "cohort_median": 0.0
+      },
+      "absences": {
+        "student_value": 2,
+        "cohort_mean": 3.86,
+        "cohort_median": 2.0
+      },
+      "studytime": {
+        "student_value": 2,
+        "cohort_mean": 1.84,
+        "cohort_median": 2.0
+      },
+      "Medu": {
+        "student_value": 1,
+        "cohort_mean": 2.38,
+        "cohort_median": 2.0
+      },
+      "Fedu": {
+        "student_value": 2,
+        "cohort_mean": 2.21,
+        "cohort_median": 2.0
+      },
+      "goout": {
+        "student_value": 2,
+        "cohort_mean": 3.28,
+        "cohort_median": 3.0
+      },
+      "health": {
+        "student_value": 1,
+        "cohort_mean": 3.54,
+        "cohort_median": 4.0
+      },
+      "Dalc": {
+        "student_value": 2,
+        "cohort_mean": 1.64,
+        "cohort_median": 1.0
+      },
+      "Walc": {
+        "student_value": 2,
+        "cohort_mean": 2.48,
+        "cohort_median": 2.0
+      }
+    },
+    "methodological_notice": "This explanation traces the exact sequence of decision boundaries evaluated by the champion Decision Tree for this specific student. Observed rules indicate classification logic, not deterministic causes of academic performance.",
+    "actual_category": "High",
+    "sample_index": 6
+  }
+]

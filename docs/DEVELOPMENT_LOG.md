@@ -115,3 +115,8 @@ Executed `Day_22_Streamlit_App_Deployment.ipynb` in a fresh kernel successfully.
 ## Day 23 repair
 
 Executed `Day_23_Model_Performance_Dashboard.ipynb` in a fresh kernel successfully. Restored runnable setup and real cell outputs. No saved error output remains.
+
+
+## Day 24: Recovered explainability notebook
+
+Recovered the original Drive notebook and reran all cells. Ten explainability tests passed. Real reports generated; unsupported numerical prose replaced. See reports/day_24.md.
