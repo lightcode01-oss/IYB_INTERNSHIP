@@ -90,3 +90,8 @@ Executed `Day_17_Student_Performance_Prediction_System.ipynb` in a fresh kernel 
 ## Day 18 repair
 
 Executed `Day_18_Testing_Validation_Documentation.ipynb` in a fresh kernel successfully. Restored runnable setup and real cell outputs. No saved error output remains.
+
+
+## Day 19 repair
+
+Executed `Day_19_Streamlit_Prediction_App.ipynb` in a fresh kernel successfully. Restored runnable setup and real cell outputs. No saved error output remains.
