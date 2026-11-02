@@ -46,3 +46,5 @@ Days are curriculum milestones. Original Days 1–23 remain at the repository ro
 | 40 | [Day_40_Performance_and_Reliability_Review](../notebooks/Day_40_Performance_and_Reliability_Review.ipynb) |
 | 41 | [Day_41_Documentation_Consolidation](../notebooks/Day_41_Documentation_Consolidation.ipynb) |
 | 42 | [Day_42_Final_ML_Evaluation_Review](../notebooks/Day_42_Final_ML_Evaluation_Review.ipynb) |
+| 43 | [Day_43_Final_Project_Testing](../notebooks/Day_43_Final_Project_Testing.ipynb) |
+| 44 | [Day_44_Portfolio_Preparation](../notebooks/Day_44_Portfolio_Preparation.ipynb) |

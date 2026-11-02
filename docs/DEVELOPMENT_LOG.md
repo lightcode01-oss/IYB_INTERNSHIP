@@ -215,3 +215,8 @@ Audit model-selection evidence and reproduce historical metrics with an explicit
 ## Day 43: Final Project Testing
 
 Rerun application notebooks and verify the complete regression suite against the final serving code. Notebook executed successfully in 11.9 seconds. Evidence: `reports/day_43.md`.
+
+
+## Day 44: Portfolio Preparation
+
+Prepare a usable portfolio README, real model visuals and reproducible demonstration steps. Notebook executed successfully in 3.1 seconds. Evidence: `reports/day_44.md`.
