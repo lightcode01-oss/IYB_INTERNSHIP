@@ -12,6 +12,8 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 import joblib
+from src.prediction import predict as serve_prediction, get_pipeline
+from src.validation import validate_inputs
 
 # Import privacy-conscious monitoring module
 from src.monitoring import (
@@ -69,7 +71,7 @@ def load_prediction_pipeline():
         )
 
     try:
-        pipeline = joblib.load(pipeline_path)
+        pipeline = get_pipeline()
     except Exception as e:
         return None, None, f"Failed to deserialize pipeline artifact: {str(e)}"
 
@@ -403,12 +405,13 @@ def main():
             input_df = pd.DataFrame([student_record])[expected_cols]
 
             try:
-                predicted_category = pipeline.predict(input_df)[0]
+                served = serve_prediction(input_df)
+                predicted_category = served.predicted_category.iloc[0]
 
                 probas = None
                 classes = list(pipeline.classes_)
                 if hasattr(pipeline, "predict_proba"):
-                    probas = pipeline.predict_proba(input_df)[0]
+                    probas = np.array([served["model_estimated_proba_"+label].iloc[0] for label in classes])
 
                 # Generate event ID for monitoring and feedback
                 current_prediction_id = uuid.uuid4().hex[:10]
@@ -523,19 +526,20 @@ def main():
                 if missing_cols:
                     st.error(f"❌ Missing {len(missing_cols)} required columns: {sorted(missing_cols)}")
                 else:
-                    df_to_predict = batch_df[expected_cols].copy()
+                    df_to_predict = validate_inputs(batch_df)
 
                     if df_to_predict.isnull().any().any():
                         st.warning("⚠️ Warning: Uploaded data contains missing (NaN) values. Rows with missing data may cause errors.")
 
                     if st.button("Run Batch Prediction", key="run_batch_btn"):
                         with st.spinner("Generating batch predictions..."):
-                            preds = pipeline.predict(df_to_predict)
+                            served = serve_prediction(df_to_predict)
+                            preds = served.predicted_category.to_numpy()
                             results_df = batch_df.copy()
                             results_df["predicted_category"] = preds
 
                             if hasattr(pipeline, "predict_proba"):
-                                probas = pipeline.predict_proba(df_to_predict)
+                                probas = served[["model_estimated_proba_"+label for label in pipeline.classes_]].to_numpy()
                                 for idx, cls_name in enumerate(pipeline.classes_):
                                     results_df[f"model_estimated_proba_{cls_name}"] = np.round(probas[:, idx], 4)
 

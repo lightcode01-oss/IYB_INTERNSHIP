@@ -150,3 +150,8 @@ Expose the existing validated model through local health and prediction endpoint
 ## Day 30: API Testing and Documentation
 
 Test API parity, request errors, unavailable models and the documented endpoint schema. Notebook executed successfully in 6.5 seconds. Evidence: `reports/day_30.md`.
+
+
+## Day 31: Application Integration
+
+Use one validation and prediction service for Streamlit and the optional API. Notebook executed successfully in 11.2 seconds. Evidence: `reports/day_31.md`.
