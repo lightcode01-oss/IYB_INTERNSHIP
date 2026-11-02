@@ -1,0 +1,13 @@
+{
+  "local_api": {
+    "health": "passed",
+    "http_inference_parity": "passed",
+    "model_id": "1bedf35d0d56c4f0"
+  },
+  "local_streamlit": {
+    "health": "passed",
+    "http_frontend": "passed"
+  },
+  "hosted_deployment": "Not created or independently verified.",
+  "scope": "Loopback-only local processes; stopped after checks."
+}
