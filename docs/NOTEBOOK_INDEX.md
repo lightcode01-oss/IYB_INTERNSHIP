@@ -48,3 +48,4 @@ Days are curriculum milestones. Original Days 1–23 remain at the repository ro
 | 42 | [Day_42_Final_ML_Evaluation_Review](../notebooks/Day_42_Final_ML_Evaluation_Review.ipynb) |
 | 43 | [Day_43_Final_Project_Testing](../notebooks/Day_43_Final_Project_Testing.ipynb) |
 | 44 | [Day_44_Portfolio_Preparation](../notebooks/Day_44_Portfolio_Preparation.ipynb) |
+| 45 | [Day_45_Internship_Completion](../notebooks/Day_45_Internship_Completion.ipynb) |
