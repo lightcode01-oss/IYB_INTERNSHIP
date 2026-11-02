@@ -210,3 +210,8 @@ Connect the project architecture, data, model workflow and operating guides in o
 ## Day 42: Final ML Evaluation Review
 
 Audit model-selection evidence and reproduce historical metrics with an explicit baseline and uncertainty estimate. Notebook executed successfully in 5.5 seconds. Evidence: `reports/day_42.md`.
+
+
+## Day 43: Final Project Testing
+
+Rerun application notebooks and verify the complete regression suite against the final serving code. Notebook executed successfully in 11.9 seconds. Evidence: `reports/day_43.md`.

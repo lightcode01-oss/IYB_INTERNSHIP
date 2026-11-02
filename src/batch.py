@@ -13,6 +13,9 @@ def parse_csv(content):
         text=content.decode('utf-8-sig')
         header=next(csv.reader(io.StringIO(text)))
         if len(set(header))!=len(header): raise InputValidationError('Duplicate CSV headers are not allowed')
+        for row in list(csv.reader(io.StringIO(text)))[1:]:
+            if row and len(row)!=len(header):
+                raise InputValidationError('Every CSV row must have the same number of fields as the header')
         frame=pd.read_csv(io.StringIO(text))
     except (UnicodeError,StopIteration,pd.errors.ParserError,pd.errors.EmptyDataError) as error:
         raise InputValidationError('CSV could not be read as a rectangular UTF-8 table') from None

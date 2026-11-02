@@ -29,7 +29,7 @@ def validate_inputs(data):
     result=data[CANONICAL_FEATURES].copy()
     for name,(lo,hi) in NUMERIC_BOUNDS.items():
         for pos,value in enumerate(result[name]):
-            if isinstance(value,(bool,np.bool_)) or not isinstance(value,numbers.Real) or not np.isfinite(value) or value!=int(value) or not lo<=value<=hi:
+            if isinstance(value,(bool,np.bool_)) or not isinstance(value,numbers.Real) or not lo<=value<=hi or not np.isfinite(value) or value!=int(value):
                 raise InputValidationError(f'Row {pos+1}, {name}: expected an integer between {lo} and {hi}')
         result[name]=result[name].astype(int)
     for name,allowed in CATEGORIES.items():
