@@ -12,6 +12,8 @@ This module handles:
 
 import os
 import uuid
+from threading import RLock
+from functools import wraps
 import logging
 from datetime import datetime, timezone
 from pathlib import Path
@@ -47,11 +49,22 @@ STANDARD_LOG_COLUMNS = [
 ]
 
 
+_STORAGE_LOCK = RLock()
+
+def synchronized(function):
+    @wraps(function)
+    def wrapped(*args, **kwargs):
+        with _STORAGE_LOCK:
+            return function(*args, **kwargs)
+    return wrapped
+
+
 def get_default_log_path() -> Path:
     """Return the resolved default path for the monitoring log CSV."""
     return DEFAULT_LOG_FILE
 
 
+@synchronized
 def ensure_storage_ready(log_path: Optional[Path] = None) -> Path:
     """
     Ensure the parent directory and log CSV exist with appropriate headers.
@@ -67,6 +80,7 @@ def ensure_storage_ready(log_path: Optional[Path] = None) -> Path:
     return target_path
 
 
+@synchronized
 def log_prediction_event(
     predicted_category: str,
     probabilities: Optional[Dict[str, float]] = None,
@@ -119,6 +133,9 @@ def log_prediction_event(
     """
     if not enabled:
         return False, "Logging is disabled by user configuration."
+
+    if predicted_category not in {"Low", "Medium", "High"}:
+        return False, "Unknown prediction category"
 
     event_id = prediction_id or uuid.uuid4().hex[:12]
     timestamp_utc = datetime.now(timezone.utc).isoformat()
@@ -181,6 +198,7 @@ def log_prediction_event(
         return False, f"Monitoring storage error: {str(e)}"
 
 
+@synchronized
 def update_prediction_feedback(
     prediction_id: str,
     feedback_value: str,
@@ -234,6 +252,7 @@ def update_prediction_feedback(
         return False, f"Feedback update error: {str(e)}"
 
 
+@synchronized
 def load_prediction_logs(log_path: Optional[Path] = None) -> pd.DataFrame:
     """
     Load all logged prediction events as a Pandas DataFrame.
@@ -258,6 +277,7 @@ def load_prediction_logs(log_path: Optional[Path] = None) -> pd.DataFrame:
         return pd.DataFrame(columns=STANDARD_LOG_COLUMNS)
 
 
+@synchronized
 def get_monitoring_summary(log_path: Optional[Path] = None) -> Dict[str, Any]:
     """
     Compute aggregate operational statistics and monitoring summaries from event logs.
@@ -326,6 +346,7 @@ def get_monitoring_summary(log_path: Optional[Path] = None) -> Dict[str, Any]:
     }
 
 
+@synchronized
 def clear_monitoring_logs(log_path: Optional[Path] = None) -> bool:
     """Clear existing log records (useful for automated testing or reset)."""
     target_path = Path(log_path) if log_path else DEFAULT_LOG_FILE
@@ -337,3 +358,19 @@ def clear_monitoring_logs(log_path: Optional[Path] = None) -> bool:
             logger.warning(f"Failed to clear log file {target_path}: {e}")
             return False
     return True
+
+
+def compare_prediction_distribution(reference, current):
+    """Total-variation distance between class frequencies; never an accuracy metric."""
+    labels = ["Low", "Medium", "High"]
+    reference, current = list(reference), list(current)
+    if not reference or not current:
+        raise ValueError("Both prediction windows must be nonempty")
+    if not set(reference + current).issubset(labels):
+        raise ValueError("Unknown prediction category")
+    a = pd.Series(reference).value_counts(normalize=True).reindex(labels, fill_value=0)
+    b = pd.Series(current).value_counts(normalize=True).reindex(labels, fill_value=0)
+    return {"reference_count": len(reference), "current_count": len(current),
+            "total_variation": float((a-b).abs().sum()/2),
+            "reference_proportions": a.to_dict(), "current_proportions": b.to_dict(),
+            "interpretation": "Descriptive output shift; does not establish model degradation or accuracy."}

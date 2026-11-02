@@ -170,3 +170,8 @@ Make model limits, required fields and privacy choices clear in the application.
 ## Day 34: Reliable Batch Prediction
 
 Bound and validate CSV uploads before producing ordered predictions. Notebook executed successfully in 6.7 seconds. Evidence: `reports/day_34.md`.
+
+
+## Day 35: Monitoring Reliability Improvements
+
+Protect local event writes and add a clearly scoped prediction-distribution comparison. Notebook executed successfully in 9.2 seconds. Evidence: `reports/day_35.md`.

@@ -1,0 +1,16 @@
+{
+  "reference_count": 65,
+  "current_count": 65,
+  "total_variation": 0.06153846153846154,
+  "reference_proportions": {
+    "Low": 0.18461538461538463,
+    "Medium": 0.6153846153846154,
+    "High": 0.2
+  },
+  "current_proportions": {
+    "Low": 0.24615384615384617,
+    "Medium": 0.5846153846153846,
+    "High": 0.16923076923076924
+  },
+  "interpretation": "Descriptive output shift; does not establish model degradation or accuracy."
+}
