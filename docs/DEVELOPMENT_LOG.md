@@ -95,3 +95,8 @@ Executed `Day_18_Testing_Validation_Documentation.ipynb` in a fresh kernel succe
 ## Day 19 repair
 
 Executed `Day_19_Streamlit_Prediction_App.ipynb` in a fresh kernel successfully. Restored runnable setup and real cell outputs. No saved error output remains.
+
+
+## Day 20 repair
+
+Executed `Day_20_Prediction_Logging_Model_Monitoring.ipynb` in a fresh kernel successfully. Restored runnable setup and real cell outputs. No saved error output remains.
